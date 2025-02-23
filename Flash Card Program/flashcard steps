@@ -1,0 +1,7 @@
+This Python program uses the Tkinter library to build a simple flashcard application for learning French vocabulary. 
+The application loads French words and their English translations from a CSV file (french_words.csv), and saves progress to another CSV file (words_to_learn.csv) as the user marks words as known.
+Upon starting the program, it checks if there is an existing progress file. If not, it falls back to the default word list. 
+The main window contains a canvas that displays each flashcard, which is initially shown in French, and after a few seconds, it flips to show the English translation. 
+Users can click on the 'wrong' or 'right' buttons to either skip to the next word or mark the current word as known.
+The application utilizes a timer to automatically flip the card after a set period (3 seconds), enhancing the learning experience by ensuring that the user is exposed to both languages efficiently. 
+The saved progress allows users to continue from where they left off in future sessions.

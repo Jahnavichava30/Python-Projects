@@ -1,0 +1,10 @@
+Here are the steps for the program:
+
+Import required modules: datetime, pandas, random, smtplib.
+Define email credentials: Set MY_EMAIL and MY_PASSWORD.
+Get today's date: Retrieve current month and day.
+Read birthday data: Load birthdays.csv and create a dictionary of birthdays.
+Check for matching birthdays: Compare today's date with the birthdays in the dictionary.
+Choose a random letter template: Select a random birthday letter template.
+Send the email: Connect to the SMTP server, login, and send the email with the birthday message.
+Update required values: Set your email, password, SMTP server, and modify birthdays.csv for today’s date.

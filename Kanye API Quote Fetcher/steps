@@ -1,0 +1,23 @@
+Steps Used in the Code: "Kanye Says..." App
+1️⃣ Import Required Libraries
+tkinter → For creating the graphical user interface (GUI).
+requests → To fetch quotes from the API (https://api.kanye.rest).
+PIL (Pillow) → To handle images (Image & ImageTk).
+2️⃣ Define the get_quote Function
+Sends a request to the API to get a random Kanye West quote.
+Extracts the quote from the JSON response.
+Updates the text in the GUI to display the new quote.
+3️⃣ Create the Tkinter Window
+Initializes a main application window (Tk()).
+Sets the title to "Kanye Says...".
+Adds padding to make the UI look better.
+4️⃣ Create the Canvas
+Creates a Canvas widget for displaying the background and text.
+Loads a background image (background.png).
+Adds a placeholder text that will be updated with quotes.
+5️⃣ Create the Button
+Loads an image (kanye.png) to be used as a button.
+Creates a button that calls get_quote() when clicked.
+Places the button below the text area.
+6️⃣ Run the Tkinter Main Loop
+Starts the Tkinter event loop (window.mainloop()) to keep the GUI running.
